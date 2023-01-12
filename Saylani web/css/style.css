@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Navbar */
+
+.uppernavbar{
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    position: relative;
+    width: 100vw;
+    height: 45px;
+    align-items: center;
+}
+.left{
+    display:flex ;
+    position: absolute;
+    left: 80px;
+    gap: 50px;
+}
+.right{
+    position: absolute;
+    right: 80px;
+}
+.right button{
+    width: 90px;
+    height: 44px;
+    background-color: white;
+    border: 0.5px solid black;
+    font-size: 20px;
+}
+.lowernavbar{
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    height: 100px;
+    margin: 0 auto;
+    align-items: center;
+}
+.lowernavbar ul{
+    font-size: 22px;
+    display: flex;
+    width: 65%;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+}
+.lowernavbar button{
+    background-color: rgb(0, 96, 181);
+    width: 180px;
+    height: 55px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+}
+#vip{
+    color: #8dc63f;
+}
+
+/* Navbar End */
+
+/* Main Body */
+
+.first{
+    width: 90vw;
+    height: 750px;
+    margin: 0 auto;
+    display: flex;
+}
+.fleft{
+    width: 49%;
+    height: 100%;
+    position: relative;
+    
+}
+.fright{
+    width: 49%;
+    height: 100%;
+    position: relative;
+}
+.fright img{
+    position: absolute;
+    left: 70px;
+    max-width: 800px;
+    min-width: 600px;
+}
+#p1{
+    font-size: 60px;
+}
+#p1 span{
+    color: #8dc63f;
+}
+#p2{
+    font-size: 40px;
+}
+#p2 span{
+    color: rgb(0, 98, 190);
+}
+#p3{
+    font-size: 20px;
+    padding: 10px;
+}
+.fleft button{
+    width: 245px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 9px
+}
+.fleft1{
+    position: absolute;
+    top: 105px;
+    left: 100px;
+}
